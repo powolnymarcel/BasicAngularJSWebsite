@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"AAAA",
+        "street":"AAAA",
+        "city":"AAAA",
+        "state":"AAAA",
+        "zip":"AAAA",
+        "phone":"34567890"
+    },
+    {
+        "id":2,
+        "name":"BBBB",
+        "street":"BBBB",
+        "city":"AAABBBA",
+        "state":"BBBB",
+        "zip":"BBB",
+        "phone":"34567890"
+    },
+    {
+        "id":3,
+        "name":"CCCC",
+        "street":"CCCCC",
+        "city":"CCCC",
+        "state":"CCCCC",
+        "zip":"CCC",
+        "phone":"34567890"
+    }
+]

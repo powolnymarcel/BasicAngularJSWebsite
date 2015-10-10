@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="computer">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- The justified navigation menu is meant for single line per list item.
+         Multiple lines will require custom code not provided by Bootstrap. -->
+    <div class="masthead">
+        <h3 class="text-muted">Computer Solutions</h3>
+        <nav>
+            <ul class="nav nav-justified">
+                <li><a href="#/main">Home</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/services">Services</a></li>
+                <li><a href="#/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section ng-controller="mainCtrl">
+        <div ng-view></div>
+    </section>
+
+    <!-- Site footer -->
+    <footer class="footer">
+        <p>&copy; Company 2014</p>
+    </footer>
+
+</div> <!-- /container -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
